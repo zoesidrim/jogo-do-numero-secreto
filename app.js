@@ -8,7 +8,7 @@ let tentativas = 1;
 function exibirTextoNaTela(tag, texto){
     let preencherCampo = document.querySelector(tag);
     preencherCampo.innerHTML = texto;
-    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.0});
+    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
 }
 
 function exibirMensagemInicial(){
